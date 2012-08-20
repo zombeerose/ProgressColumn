@@ -1,0 +1,5 @@
+/* = Progress Column
+----------------------------------------------- */
+.x-grid-row .x-progress .x-grid-cell-inner {
+    padding: 0; 
+}
