@@ -10,8 +10,8 @@
  * Example usage:
         var grid = Ext.create('Ext.grid.Panel',{
             columns: [{
-                dataIndex: 'progress',
-                xtype: 'progresscolumn'
+                dataIndex: 'progress'
+                ,xtype: 'dvp_progresscolumn'
             },{
                ...
             ]}
@@ -25,7 +25,7 @@
  */
 Ext.define('Ext.ux.grid.column.Progress', {
     extend: 'Ext.grid.column.Column',
-    alias: 'widget.progresscolumn',
+    alias: 'widget.dvp_progresscolumn',
     
     cls: 'x-progress-column',
     
@@ -44,6 +44,7 @@ Ext.define('Ext.ux.grid.column.Progress', {
      */
     progressText: '{0} %',
     
+
     /**
      * @param {Object} value
      * @param {Object} meta
@@ -73,7 +74,6 @@ Ext.define('Ext.ux.grid.column.Progress', {
             '</div>' 
         return v;
     }
-    
 }); //eo extend
 
 //end of file
