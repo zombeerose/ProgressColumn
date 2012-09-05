@@ -36,10 +36,11 @@ Ext.define('Ext.ux.grid.column.Progress', {
      * that corresponds with the low value.  The high value will be assumed to be Number.MAX_VALUE.
      */
     brackets: [
-        [0,24],
-        [25,49],
-        [50,74],
-        [75,99],
+        [0,19],
+        [20,39],
+        [40,59],
+        [60,79],
+        [80,99],
         [100]
     ],
     /**
@@ -124,14 +125,14 @@ Ext.define('Ext.ux.grid.column.Progress', {
             
         for (; i < brackets.length; i++){
             bracket = brackets[i];
-            //<DEBUG>
+            //<debug>
             if (!Ext.isArray(bracket) || Ext.isEmpty(bracket)){
                 Ext.Error.raise('Invalid bracket configuration.  Each bracket must be an array containing 1 or 2 numeric values.');
             }
             if (bracket.length > 2){
                 Ext.Error.raise('Invalid bracket configuration.  Each bracket should contain 2 values at most.');
             }
-            //</DEBUG>
+            //</debug>
             low = bracket[0];
             high = (bracket.length > 1) ? bracket[1] : Number.MAX_VALUE;
             if (v >= low && v <= high){

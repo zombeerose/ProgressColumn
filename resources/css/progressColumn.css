@@ -123,23 +123,25 @@ http://projects.korrelboom.com/gradient-generator
 	-ms-filter: "progid:DXImageTransform.Microsoft.Gradient(GradientType=0,StartColorStr=#FF55FF00,EndColorStr=#FF00FF80)"
 }
 
-
-.x-progress-default .x-grid-cell-inner .x-progress-step-3-BLUE {
+.x-progress-default .x-grid-cell-inner .x-progress-step-5 {
+    border-right-color: #55ff00;
+    border-top-color: #55ff00;
+    
 	/* SVG fallback(Opera 11.10-, IE9) */
-	background: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxkZWZzPjxsaW5lYXJHcmFkaWVudCBpZD0iZ3JhZGllbnQiIHgxPSIwJSIgeTE9IjAlIiB4Mj0iMTAwJSIgeTI9IjAlIj48c3RvcCBvZmZzZXQ9IjAlIiBzdHlsZT0ic3RvcC1jb2xvcjpyZ2JhKDI1NSwyNTUsMCwxKTsiIC8+PHN0b3Agb2Zmc2V0PSIxMDAlIiBzdHlsZT0ic3RvcC1jb2xvcjpyZ2JhKDE4NywyMTcsMjM4LDEpOyIgLz48L2xpbmVhckdyYWRpZW50PjwvZGVmcz48cmVjdCBmaWxsPSJ1cmwoI2dyYWRpZW50KSIgaGVpZ2h0PSIxMDAlIiB3aWR0aD0iMTAwJSIgLz48L3N2Zz4=);
+	background: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxkZWZzPjxsaW5lYXJHcmFkaWVudCBpZD0iZ3JhZGllbnQiIHgxPSIwJSIgeTE9IjAlIiB4Mj0iMCUiIHkyPSIxMDAlIj48c3RvcCBvZmZzZXQ9IjAlIiBzdHlsZT0ic3RvcC1jb2xvcjpyZ2JhKDg1LDI1NSwwLDEpOyIgLz48c3RvcCBvZmZzZXQ9IjEwMCUiIHN0eWxlPSJzdG9wLWNvbG9yOnJnYmEoMCwxNzAsMjU1LDEpOyIgLz48L2xpbmVhckdyYWRpZW50PjwvZGVmcz48cmVjdCBmaWxsPSJ1cmwoI2dyYWRpZW50KSIgaGVpZ2h0PSIxMDAlIiB3aWR0aD0iMTAwJSIgLz48L3N2Zz4=);
 	
 	/* Opera 11.10+ */
-	background: -o-linear-gradient(left, rgba(255,255,0,1), rgba(187,217,238,1));
+	background: -o-linear-gradient(top, rgba(85,255,0,1), rgba(0,170,255,1));
 	
 	/* Firefox 3.6+ */
-	background: -moz-linear-gradient(left, rgba(255,255,0,1), rgba(187,217,238,1));
+	background: -moz-linear-gradient(top, rgba(85,255,0,1), rgba(0,170,255,1));
 	
 	/* Chrome 7+ & Safari 5.03+ */
-	background: -webkit-gradient(linear, left top, right top, color-stop(0, rgba(255,255,0,1)), color-stop(1, rgba(187,217,238,1)));
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0, rgba(85,255,0,1)), color-stop(1, rgba(0,170,255,1)));
 	
 	/* IE5.5 - IE7 */
-	filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=1,StartColorStr=#FFFFFF00,EndColorStr=#FFBBD9EE);
+	filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=0,StartColorStr=#FF55FF00,EndColorStr=#FF00AAFF);
 	
 	/* IE8 */
-	-ms-filter: "progid:DXImageTransform.Microsoft.Gradient(GradientType=1,StartColorStr=#FFFFFF00,EndColorStr=#FFBBD9EE)"
+	-ms-filter: "progid:DXImageTransform.Microsoft.Gradient(GradientType=0,StartColorStr=#FF55FF00,EndColorStr=#FF00AAFF)"
 }
