@@ -1,6 +1,9 @@
 ProgressColumn
 ===========
 
+Deprecated - Use Ext.grid.column.Widget instead.
+-----------
+
 A Grid column type which renders a numeric value as a progress bar.
 
 ExtJS 4.x Compatible
